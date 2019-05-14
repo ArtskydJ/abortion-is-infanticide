@@ -2,14 +2,16 @@
   "description": "Replaces the word \"Abortion\" with the word \"Infanticide\" on all your websites",
   "manifest_version": 2,
   "name": "Abortion is Infanticide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Joseph Dykstra",
-  "homepage_url": "https://github.com/ArtskydJ/abortion-is-infanticide-ff-addon",
+  "homepage_url": "https://github.com/ArtskydJ/abortion-is-infanticide",
   "icons": {
-    "48": "abortion-is-infanticide-48.png"
+    "48": "icon-48.png",
+    "128": "icon-128.png"
   },
   "content_scripts": [{
-    "matches": ["*://*/"],
-    "js": ["abortion-is-infanticide.js"]
+    "matches": ["*://*/*"],
+    "js": ["abortion-is-infanticide.js"],
+    "run_at": "document_end"
   }]
 }

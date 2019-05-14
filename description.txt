@@ -1,0 +1,12 @@
+Copy and paste the following into Mozilla's Add-on Description box when submitting a new version...
+
+===================================================================================================
+
+Replaces the word "Abortion" with the word "Infanticide" on all your websites.
+
+If you're mad about this add-on, then don't use it.  Or start using it, and realize the way some pro-lifers see the world.  Around 15% of unborn children never get to see their parents because their parents murder them!
+
+Some phrases won't really make sense. That is a cost to using this add-on.
+E.g. Celeb got an abortion -> Celeb got an infanticide.
+
+If you have a better replacement strategy, that reads better, feel free to submit any ideas or code <a href="https://github.com/ArtskydJ/abortion-is-infanticide-ff-addon/issues">here.</a>

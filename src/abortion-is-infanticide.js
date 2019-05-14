@@ -6,7 +6,7 @@
 
 	var changeAbortionToInfanticide = function cati(text) {
 		return text.replace(/(abortion)(ist)?/ig, (_, abortion) => {
-			return `${abortion[0] === 'A' ? 'I' : 'i'}nfanticide`
+			return (abortion[0] === 'A' ? 'I' : 'i') + 'nfanticide'
 		})
 	}
 

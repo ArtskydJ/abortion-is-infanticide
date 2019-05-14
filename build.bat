@@ -1,5 +1,5 @@
 @echo off
-del dist.xpi
+del dist.zip
 pushd .\src
-"C:\Program Files\7-Zip\7z.exe" a ..\dist.xpi
+"C:\Program Files\7-Zip\7z.exe" a ..\dist.zip
 popd
