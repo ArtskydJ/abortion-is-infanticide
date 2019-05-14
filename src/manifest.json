@@ -2,7 +2,7 @@
   "description": "Replaces the word \"Abortion\" with the word \"Infanticide\" on all your websites",
   "manifest_version": 2,
   "name": "Abortion is Infanticide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Joseph Dykstra",
   "homepage_url": "https://github.com/ArtskydJ/abortion-is-infanticide",
   "icons": {
@@ -11,6 +11,7 @@
   },
   "content_scripts": [{
     "matches": ["*://*/*"],
+    "exclude_matches": ["*://github.com/*"],
     "js": ["abortion-is-infanticide.js"],
     "run_at": "document_end"
   }]
