@@ -25,6 +25,8 @@ The only downside I see is that "infanticide" might not evoke as strong of emoti
 
 ### Build to a zip file
 
+Prerequisite: Install 7-zip
+
 Run `build.bat`
 
 ### License
