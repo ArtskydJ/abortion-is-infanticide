@@ -6,7 +6,7 @@ Add this extension to your browser, and the word "abortion" will be replaced wit
 ### Browsers
 
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/abortion-is-infanticide/)
-- Chrome (Pending review)
+- [Chrome](https://chrome.google.com/webstore/detail/abortion-is-infanticide/geanaodefndkofegmpibffclindcdphm)
 
 ### Credit
 
