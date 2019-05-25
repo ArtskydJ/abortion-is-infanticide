@@ -29,6 +29,10 @@ Prerequisite: Install 7-zip
 
 Run `build.bat`
 
+### Test
+
+After installing the extension, open [this test page](https://artskydj.github.io/abortion-is-infanticide/test).
+
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
