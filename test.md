@@ -36,7 +36,7 @@
 
 | Expect  | she committed infanticide        |
 |---------|----------------------------------|
-| Replace | she recieved an abortion         |
+| Replace | she received an abortion         |
 
 
 | Expect  | she committed infanticide        |
