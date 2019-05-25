@@ -1,54 +1,54 @@
 
-| Before | Abortion is the ending of a      |
-|--------|----------------------------------|
-| After  | Infanticide is the ending of a   |
+| Expect  | Infanticide is the ending of a   |
+|---------|----------------------------------|
+| Replace | Abortion is the ending of a      |
 
 
-| Before | 56 million abortions are         |
-|--------|----------------------------------|
-| After  | 56 million infanticides are      |
+| Expect  | 56 million infanticides are      |
+|---------|----------------------------------|
+| Replace | 56 million abortions are         |
 
 
-| Before | to legal abortions without       |
-|--------|----------------------------------|
-| After  | to legal infanticides without    |
+| Expect  | to legal infanticides without    |
+|---------|----------------------------------|
+| Replace | to legal abortions without       |
 
 
-| Before | women who receive abortions      |
-|--------|----------------------------------|
-| After  | women who commit infanticide     |
+| Expect  | women who commit infanticide     |
+|---------|----------------------------------|
+| Replace | women who receive abortions      |
 
 
-| Before | a girl who receives an abortion  |
-|--------|----------------------------------|
-| After  | a girl who commits infanticide   |
+| Expect  | a girl who commits infanticide   |
+|---------|----------------------------------|
+| Replace | a girl who receives an abortion  |
 
 
-| Before | she gets an abortion             |
-|--------|----------------------------------|
-| After  | she commits infanticide          |
+| Expect  | she commits infanticide          |
+|---------|----------------------------------|
+| Replace | she gets an abortion             |
 
 
-| Before | she wanted to have an abortion   |
-|--------|----------------------------------|
-| After  | she wanted to commit infanticide |
+| Expect  | she wanted to commit infanticide |
+|---------|----------------------------------|
+| Replace | she wanted to have an abortion   |
 
 
-| Before | she recieved an abortion         |
-|--------|----------------------------------|
-| After  | she committed infanticide        |
+| Expect  | she committed infanticide        |
+|---------|----------------------------------|
+| Replace | she recieved an abortion         |
 
 
-| Before | she had an abortion              |
-|--------|----------------------------------|
-| After  | she committed infanticide        |
+| Expect  | she committed infanticide        |
+|---------|----------------------------------|
+| Replace | she had an abortion              |
 
 
-| Before | she got an abortion              |
-|--------|----------------------------------|
-| After  | she committed infanticide        |
+| Expect  | she committed infanticide        |
+|---------|----------------------------------|
+| Replace | she got an abortion              |
 
 
-| Before | 1,000 post-abortion patients     |
-|--------|----------------------------------|
-| After  | 1,000 post-infanticide patients  |
+| Expect  | 1,000 post-infanticide patients  |
+|---------|----------------------------------|
+| Replace | 1,000 post-abortion patients     |
