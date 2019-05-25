@@ -8,6 +8,9 @@
 		return text.replace(/(abortion)(ist)?/ig, (_, abortion) => {
 			return (abortion[0] === 'A' ? 'I' : 'i') + 'nfanticide'
 		})
+		.replace(/(received|got|had) (an )?infanticide/, 'committed infanticide')
+		.replace(/(receives|gets|has) an infanticide/, 'commits infanticide')
+		.replace(/(receive|get|have) (an )?infanticide/, 'commit infanticide')
 	}
 
 	Array.from(doc.querySelectorAll('*')).forEach(el => {
