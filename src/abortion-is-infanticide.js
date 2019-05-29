@@ -4,13 +4,18 @@
 		return node.nodeName === '#text'
 	}
 
+	var sameCase = function (prevWord, nextWord) {
+		var startsUpper = /^[A-Z]/.test(prevWord)
+		var toCase = startsUpper ? 'toUpperCase' : 'toLowerCase'
+		var nextWordStart = nextWord[0][toCase]()
+		return nextWordStart + nextWord.slice(1)
+	}
+
 	var changeAbortionToInfanticide = function cati(text) {
-		return text.replace(/(abortion)(ist)?/ig, (_, abortion) => {
-			return (abortion[0] === 'A' ? 'I' : 'i') + 'nfanticide'
-		})
-		.replace(/(received|got|had) (an )?infanticide/, 'committed infanticide')
-		.replace(/(receives|gets|has) an infanticide/, 'commits infanticide')
-		.replace(/(receive|get|have) (an )?infanticide/, 'commit infanticide')
+		return text.replace(/(abortion)(ist)?/ig, (_, abortion) => sameCase(abortion, 'infanticide'))
+		.replace(/(received|got|had) (?:an )?(infanticide)/gi, (_, a, b) => sameCase(a, 'committed ') + sameCase(b, 'infanticide'))
+		.replace(/(receives|gets|has) (?:an )(infanticide)/gi, (_, a, b) => sameCase(a, 'commits ') + sameCase(b, 'infanticide'))
+		.replace(/(receive|get|have) (?:an )?(infanticide)/gi, (_, a, b) => sameCase(a, 'commit ') + sameCase(b, 'infanticide'))
 	}
 
 	Array.from(doc.querySelectorAll('*')).forEach(el => {
