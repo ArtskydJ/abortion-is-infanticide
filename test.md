@@ -49,6 +49,11 @@
 | Replace | she got an abortion              |
 
 
+| Expect  | She Committed Infanticide        |
+|---------|----------------------------------|
+| Replace | She Got An Abortion              |
+
+
 | Expect  | 1,000 post-infanticide patients  |
 |---------|----------------------------------|
 | Replace | 1,000 post-abortion patients     |
