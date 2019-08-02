@@ -21,7 +21,12 @@
 	Array.from(doc.querySelectorAll('*')).forEach(el => {
 		return Array.from(el.childNodes)
 			.filter(isTextNode)
-			.forEach(node => node.textContent = changeAbortionToInfanticide(node.textContent))
+			.forEach(node => {
+				var newTextContent = changeAbortionToInfanticide(node.textContent)
+				if (node.textContent !== newTextContent) {
+					node.textContent = newTextContent
+				}
+			})
 	})
 
 })(document)
